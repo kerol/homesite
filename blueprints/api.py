@@ -9,14 +9,14 @@ bp_api = Blueprint('api', __name__)
 
 @bp_api.route('/scantao')
 def scantao():
-    return render_template('scantao.html')
+    return render_template('api/scantao.html')
 
 
 @bp_api.route('/g2048')
 def g2048():
-    return render_template('g2048.html')
+    return render_template('api/g2048.html')
 
 
 @bp_api.route('/caitao')
 def caitao():
-    return render_template('caitao.html')
+    return render_template('api/caitao.html')
