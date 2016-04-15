@@ -20,3 +20,8 @@ def g2048():
 @bp_api.route('/caitao')
 def caitao():
     return render_template('api/caitao.html')
+
+
+@bp_api.route('/findtao')
+def findtao():
+    return render_template('api/findtao.html')
